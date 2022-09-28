@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Formulário cadastro EBAC</h1>
+        </header>
+        <div class="container">
+            <form>
+                <ul class="container">
+                    <li>
+                        <label for="nome">Nome completo</label>
+                        <input type="text" required name="nome" id="nome">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" required name="email" id="email">
+                    </li>
+                    <li>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" required name="telefone" id="telefone">
+                    </li>
+                    <li>
+                        <label for="cpf">CPF</label>
+                        <input type="text" required name="cpf" id="cpf">
+                    </li>
+                    <li>
+                        <label for="endereço">Endereço</label>
+                        <input type="text" required name="endereço" id="endereço">
+                    </li>
+                    <li>
+                        <label for="cep">CEP</label>
+                        <input type="text" required name="cep" id="cep">
+                    </li>
+                    <div class="container">
+                        <button id="enviar" type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
