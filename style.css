@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    max-height: 450px;
+}
+
+h2 {
+    margin: 50px 0;
+}
+
+header {
+    background-color: rgb(250, 250, 250);
+}
+
+.card-footer button {
+    margin-left: 110px;
+}
+
+.preco {
+    text-decoration: line-through;
+    color: #ccc;
+    display: inline;
+}
+
+.card {
+    margin-bottom: 32px;
+}
+
+#promocoes button {
+    margin-left: 35px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding: 15px;
+    background-color: rgb(250, 250, 250);
+}
+
+footer p {
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+footer a {
+    margin-right: 12px;
+    text-decoration: none;
+    font-weight: ;
+}
+
+#contato form {
+    max-width: 450px;
+}
+
+#contato h2 {
+    text-align: center;
+}
+
+#contato .container {
+    display: flex;
+    justify-content: center;
+}
