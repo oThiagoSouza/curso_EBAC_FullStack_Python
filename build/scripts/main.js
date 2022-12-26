@@ -1,0 +1,1 @@
+const nome=prompt("Qual seu nome?"),idade=(alert("Olá "+nome),prompt("Quantos anos você tem?"));alert("Você tem "+idade+" anos!");
