@@ -1,0 +1,47 @@
+body {
+  background-color: #7a7a7c;
+  color: #cc23a1;
+  font-size: 2em;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container h1 {
+  align-items: center;
+  justify-content: center;
+}
+.container #num-aleatorio label {
+  font-size: 1.5em;
+}
+.container #num-aleatorio input {
+  padding: 16px;
+  margin-bottom: 16px;
+  max-width: 130px;
+  width: 100%;
+  font-size: 1em;
+  background-color: transparent;
+  color: #FFF;
+  border: 1px dotted #cc23a1;
+}
+button {
+  display: block;
+  padding: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #ccc;
+}
